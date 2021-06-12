@@ -165,7 +165,6 @@
 		});	
 	}
 	
-	
 	//Two Item Carousel
 	if ($('.two-item-carousel').length) {
 		$('.two-item-carousel').owlCarousel({

@@ -6,9 +6,11 @@
       style="background-image: url(images/background/11.jpg);"
     >
       <div class="auto-container">
-        <h1>Error 404</h1>
+        <h1>Erreur 404</h1>
         <ul class="page-breadcrumb">
-          <li><a href="index.html">Home</a></li>
+          <li>
+            <router-link to='/'>Accueil</router-link>
+          </li>
           <li>404</li>
         </ul>
       </div>
@@ -22,12 +24,14 @@
           <span class="theme_color">0</span>
           4
         </div>
-        <h4>Category not found</h4>
+        <h4>Aucune page ne correspond à votre recherche</h4>
         <div class="text">
-          The page you are Looking for was Moved, Removed, Renamed or Might
-          Never Existed
+          La page que vous recherchez a été Déplacée, Supprimée, Renommée ou
+          Jamais Existé
         </div>
-        <router-link to="/" class="theme-btn btn-style-one">Home Page</router-link>
+        <router-link to="/" class="theme-btn btn-style-one">
+          Page d'Accueil
+        </router-link>
       </div>
     </section>
     <!--Error Section-->

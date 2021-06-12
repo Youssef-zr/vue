@@ -100,7 +100,14 @@
                   <li>
                     <router-link to="/">Accueil</router-link>
                   </li>
-                  <li class="dropdown" :class="['pnc','nve','np'].includes($route.name) ? 'current' : ''">
+                  <li
+                    class="dropdown"
+                    :class="
+                      ['pnc', 'nve', 'np'].includes($route.name)
+                        ? 'current'
+                        : ''
+                    "
+                  >
                     <a href="#" @click="(e) => e.preventDefault()">
                       Qui Sommes Nous
                     </a>
@@ -126,7 +133,9 @@
                     <router-link to="/Audit">Audit</router-link>
                   </li>
                   <li>
-                    <router-link to="/Expertise-Comptable">Expertise Comptable</router-link>
+                    <router-link to="/Expertise-Comptable">
+                      Expertise Comptable
+                    </router-link>
                   </li>
                   <li>
                     <router-link to="/Conseil">Conseil</router-link>
@@ -223,77 +232,55 @@
                 >
                   <ul class="navigation clearfix">
                     <li>
-                      <router-link to="/">
-                        <i class="fa fa-home"></i>
-                        Home
+                      <router-link to="/">Accueil</router-link>
+                    </li>
+                    <li
+                      class="dropdown"
+                      :class="
+                        ['pnc', 'nve', 'np'].includes($route.name)
+                          ? 'current'
+                          : ''
+                      "
+                    >
+                      <a href="#" @click="(e) => e.preventDefault()">
+                        Qui Sommes Nous
+                      </a>
+                      <ul>
+                        <li>
+                          <router-link to="/pourquoi-nous-choisir">
+                            pourquoi-nous-choisir
+                          </router-link>
+                        </li>
+                        <li>
+                          <router-link to="/nos-valeurs-et-engagements">
+                            nos-valeurs-et-engagements
+                          </router-link>
+                        </li>
+                        <li>
+                          <router-link to="/nos-partenaires">
+                            nos-partenaires
+                          </router-link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <router-link to="/Audit">Audit</router-link>
+                    </li>
+                    <li>
+                      <router-link to="/Expertise-Comptable">
+                        Expertise Comptable
                       </router-link>
                     </li>
-                    <li class="current dropdown">
-                      <a href="#">Home</a>
-                      <ul>
-                        <li><a href="index.html">Home One</a></li>
-                        <li><a href="index-2.html">Home Two</a></li>
-                        <li><a href="index-3.html">Home Three</a></li>
-                        <li class="dropdown">
-                          <a href="#">Header Styles</a>
-                          <ul>
-                            <li><a href="index.html">Header Style One</a></li>
-                            <li><a href="index-2.html">Header Style Two</a></li>
-                            <li>
-                              <a href="index-3.html">Header Style Three</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
+                    <li>
+                      <router-link to="/Conseil">Conseil</router-link>
                     </li>
-                    <li class="dropdown">
-                      <a href="#">About Us</a>
-                      <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="team-two.html">Team Two</a></li>
-                        <li><a href="faq.html">Faq</a></li>
-                        <li><a href="comming-soon.html">Comming Soon</a></li>
-                        <li><a href="error-page.html">Error Page</a></li>
-                      </ul>
+
+                    <li>
+                      <router-link to="/contact">
+                        <i class="fa fa-phone"></i>
+                        Contact
+                      </router-link>
                     </li>
-                    <li class="dropdown">
-                      <a href="#">Services</a>
-                      <ul>
-                        <li><a href="services.html">Services</a></li>
-                        <li>
-                          <a href="services-single.html">Services Single</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Projects</a>
-                      <ul>
-                        <li><a href="project.html">Projects</a></li>
-                        <li>
-                          <a href="project-detail.html">Projects Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Blog</a>
-                      <ul>
-                        <li><a href="blog.html">Our Blog</a></li>
-                        <li><a href="blog-modern.html">Blog Modern</a></li>
-                        <li><a href="blog-detail.html">Blog Details</a></li>
-                        <li><a href="login-page.html">Login / Rejister</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Shop</a>
-                      <ul>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li><a href="shoping-cart.html">Cart Page</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
-                        <li><a href="shop-detail.html">Product Detail</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="contact.html">Contact us</a></li>
                   </ul>
                 </div>
               </nav>

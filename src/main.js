@@ -12,6 +12,8 @@ import nve from "./components/pages/about/about-2";
 // nos-partenaires
 import np from "./components/pages/about/about-3";
 
+// contact
+import contact from './components/pages/contact'
 
 import notFound from "./components/pages/not-found";
 
@@ -36,6 +38,11 @@ let routes = [
     path: "/nos-partenaires",
     name: "np",
     component: np
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: contact
   },
 
   {
