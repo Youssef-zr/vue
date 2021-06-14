@@ -154,8 +154,43 @@
                       Expertise Comptable
                     </router-link>
                   </li>
-                  <li>
-                    <router-link to="/Conseil">Conseil</router-link>
+                  <li
+                    class="dropdown"
+                    :class="
+                      ['cjef', 'cseo', 'cec', 'cesd', 'Conseil'].includes(
+                        $route.name,
+                      )
+                        ? 'current'
+                        : ''
+                    "
+                  >
+                    <router-link to="/Conseil">
+                      Conseil
+                    </router-link>
+                    <ul>
+                      <li>
+                        <router-link to="/conseil-juridique-et-fiscal">
+                          conseil-juridique-et-fiscal
+                        </router-link>
+                      </li>
+                      <li>
+                        <router-link
+                          to="/conseil-en-strategie-et-en-organisation"
+                        >
+                          conseil-en-strategie-et-en-organisation
+                        </router-link>
+                      </li>
+                      <li>
+                        <router-link to="/conseil-en-corporate">
+                          conseil-en-corporate
+                        </router-link>
+                      </li>
+                      <li>
+                        <router-link to="/conseil-en-systeme-dinformation">
+                          conseil-en-systeme-dinformation
+                        </router-link>
+                      </li>
+                    </ul>
                   </li>
 
                   <li>

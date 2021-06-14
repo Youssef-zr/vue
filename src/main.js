@@ -23,6 +23,19 @@ import auditContractuel from "./components/pages/audit/audit-contractuel";
 import commissariatCompte from "./components/pages/audit/commissariat-compte";
 // ---------------------------------------------------
 
+// -----------------  conseil dropDown -----------------
+// conseil
+import conseil from "./components/pages/conseil/conseil";
+// conseil-juridique-et-fiscal
+import cjef from "./components/pages/conseil/conseil-juridique-et-fiscal";
+// conseil-en-strategie-et-en-organisation
+import cseo from "./components/pages/conseil/conseil-en-strategie-et-en-organisation";
+// conseil-en-systeme-dinformation
+import cesd from "./components/pages/conseil/conseil-en-systeme-dinformation";
+// conseil-en-corporate
+import cec from "./components/pages/conseil/conseil-en-corporate";
+// ---------------------------------------------------
+
 
 // contact
 import contact from './components/pages/contact'
@@ -65,9 +78,29 @@ let routes = [
     component: auditContractuel
   },
   {
-    path: "/nos-partenaires",
-    name: "np",
-    component: np
+    path: "/Conseil",
+    name: "Conseil",
+    component: conseil
+  },
+  {
+    path: "/conseil-juridique-et-fiscal",
+    name: "cjef",
+    component: cjef
+  },
+  {
+    path: "/conseil-en-systeme-dinformation",
+    name: "cesd",
+    component: cesd
+  },
+  {
+    path: "/conseil-en-strategie-et-en-organisation",
+    name: "cseo",
+    component: cseo
+  },
+  {
+    path: "/conseil-en-corporate",
+    name: "cec",
+    component: cec
   },
   {
     path: "/Expertise-Comptable",
