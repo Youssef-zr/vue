@@ -436,7 +436,7 @@
 <script>
 // /src/jquery.js
 import jQuery from 'jquery'
-window.jQuery = window.$ = jQuery
+window.jQuery = window.$ = jQuery;
 
 export default {
   created() {
