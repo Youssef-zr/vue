@@ -162,97 +162,97 @@ $(()=> {
 		});	
 	}
 	
-	//Two Item Carousel
-	if ($('.two-item-carousel').length) {
-		$('.two-item-carousel').owlCarousel({
-			loop:true,
-			margin:30,
-			nav:true,
-			smartSpeed: 500,
-			autoplay: 5000,
-			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
-				},
-				600:{
-					items:1
-				},
-				800:{
-					items:2
-				},
-				1024:{
-					items:2
-				},
-				1200:{
-					items:2
-				}
-			}
-		});    		
-	}
+	// //Two Item Carousel
+	// if ($('.two-item-carousel').length) {
+	// 	$('.two-item-carousel').owlCarousel({
+	// 		loop:true,
+	// 		margin:30,
+	// 		nav:true,
+	// 		smartSpeed: 500,
+	// 		autoplay: 5000,
+	// 		navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+	// 		responsive:{
+	// 			0:{
+	// 				items:1
+	// 			},
+	// 			600:{
+	// 				items:1
+	// 			},
+	// 			800:{
+	// 				items:2
+	// 			},
+	// 			1024:{
+	// 				items:2
+	// 			},
+	// 			1200:{
+	// 				items:2
+	// 			}
+	// 		}
+	// 	});    		
+	// }
 
 	
-	//Three Item Carousel
-	if ($('.three-item-carousel').length) {
-		$('.three-item-carousel').owlCarousel({
-			loop:true,
-			margin:30,
-			nav:true,
-			smartSpeed: 500,
-			autoplay: 5000,
-			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
-				},
-				600:{
-					items:1
-				},
-				700:{
-					items:2
-				},
-				800:{
-					items:2
-				},
-				1024:{
-					items:2
-				},
-				1200:{
-					items:3
-				}
-			}
-		});    		
-	}
+	// //Three Item Carousel
+	// if ($('.three-item-carousel').length) {
+	// 	$('.three-item-carousel').owlCarousel({
+	// 		loop:true,
+	// 		margin:30,
+	// 		nav:true,
+	// 		smartSpeed: 500,
+	// 		autoplay: 5000,
+	// 		navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+	// 		responsive:{
+	// 			0:{
+	// 				items:1
+	// 			},
+	// 			600:{
+	// 				items:1
+	// 			},
+	// 			700:{
+	// 				items:2
+	// 			},
+	// 			800:{
+	// 				items:2
+	// 			},
+	// 			1024:{
+	// 				items:2
+	// 			},
+	// 			1200:{
+	// 				items:3
+	// 			}
+	// 		}
+	// 	});    		
+	// }
 
 
-	// Sponsors Carousel
-	if ($('.sponsors-carousel').length) {
-		$('.sponsors-carousel').owlCarousel({
-			loop:true,
-			margin:40,
-			nav:true,
-			smartSpeed: 500,
-			autoplay: 4000,
-			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
-				},
-				480:{
-					items:2
-				},
-				600:{
-					items:4
-				},
-				800:{
-					items:5
-				},
-				1024:{
-					items:5
-				}
-			}
-		});    		
-	}
+	// // Sponsors Carousel
+	// if ($('.sponsors-carousel').length) {
+	// 	$('.sponsors-carousel').owlCarousel({
+	// 		loop:true,
+	// 		margin:40,
+	// 		nav:true,
+	// 		smartSpeed: 500,
+	// 		autoplay: 4000,
+	// 		navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+	// 		responsive:{
+	// 			0:{
+	// 				items:1
+	// 			},
+	// 			480:{
+	// 				items:2
+	// 			},
+	// 			600:{
+	// 				items:4
+	// 			},
+	// 			800:{
+	// 				items:5
+	// 			},
+	// 			1024:{
+	// 				items:5
+	// 			}
+	// 		}
+	// 	});    		
+	// }
 	
 	
 	//LightBox / Fancybox

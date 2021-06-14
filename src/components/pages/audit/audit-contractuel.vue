@@ -394,3 +394,13 @@
   }
 }
 </style>
+
+<script>
+export default {
+  methods: {
+    prevent(e) {
+      e.prevetDefault()
+    },
+  },
+}
+</script>

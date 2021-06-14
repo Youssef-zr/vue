@@ -434,16 +434,12 @@
 </template>
 
 <script>
-// /src/jquery.js
-import jQuery from 'jquery'
-window.jQuery = window.$ = jQuery;
-
 export default {
   created() {
-    // prepare slider
-    setTimeout(() => {
-      jQuery(document).ready(() => {
-        jQuery('#rev_slider_one')
+    $(document).ready(function () {
+      // prepare slider
+      setTimeout(() => {
+        $('#rev_slider_one')
           .show()
           .revolution({
             sliderType: 'standard',
@@ -532,15 +528,13 @@ export default {
               disableFocusListener: false,
             },
           })
-      }) /*ready*/
-    }, 1000)
+      }, 1000)
 
-    // owl carousol
-    setTimeout(() => {
-      //Three Item Carousel
-      jQuery(() => {
-        if (jQuery('.three-item-carousel').length) {
-          jQuery('.three-item-carousel').owlCarousel({
+      // owl carousol
+      setTimeout(() => {
+        //Three Item Carousel
+        if ($('.three-item-carousel').length) {
+          $('.three-item-carousel').owlCarousel({
             loop: true,
             margin: 30,
             nav: true,
@@ -572,8 +566,8 @@ export default {
             },
           })
         }
-      })
-    }, 1200)
+      }, 3000)
+    }) /*ready*/
   },
 }
 </script>
