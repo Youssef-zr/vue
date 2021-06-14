@@ -170,7 +170,6 @@
                   <router-link to="/Conseil" class="theme-btn btn-style-three">
                     Savoir Plus
                   </router-link>
-                  
                 </div>
               </div>
             </li>
@@ -289,9 +288,9 @@
               <div class="clearfix">
                 <div class="pull-left">
                   <router-link to="/Contact"></router-link>
-                  <a href="contact.html" class="theme-btn btn-style-four">
-                    contacter
-                  </a>
+                  <router-link to="/contact" class="theme-btn btn-style-four">
+                    Contacter
+                  </router-link>
                 </div>
                 <div class="pull-right">
                   <div class="phone">
@@ -365,7 +364,7 @@
                   </div>
                   <div class="lower-content">
                     <h3>
-                        <router-link to="/Audit">Audit</router-link>
+                      <router-link to="/Audit">Audit</router-link>
                     </h3>
                     <div class="text">
                       audit et certification des comptes
@@ -382,10 +381,11 @@
                   </div>
                   <div class="lower-content">
                     <h3>
-                        <router-link to="/Conseil">Conseil</router-link>
+                      <router-link to="/Conseil">Conseil</router-link>
                     </h3>
                     <div class="text">
-                      accompagnement des transactions, amélioration de la performance, gestion des risques et crises
+                      accompagnement des transactions, amélioration de la
+                      performance, gestion des risques et crises
                     </div>
                   </div>
                 </div>
@@ -399,7 +399,9 @@
                   </div>
                   <div class="lower-content">
                     <h3>
-                        <router-link to="/Expertise-Comptable">Expertise comptable</router-link>
+                      <router-link to="/Expertise-Comptable">
+                        Expertise comptable
+                      </router-link>
                     </h3>
                     <div class="text">
                       auprès de grandes, moyennes et petites entreprises.
@@ -580,17 +582,34 @@ export default {
 </script>
 
 <style lang="scss">
-    .text-blue{
-        color:#009dea
-    }
+.text-blue {
+  color: #009dea;
+}
 
-    .owl-carousel .owl-item{
-        height: 320px !important;
-    }
-    .owl-carousel .owl-item >div{
-        height: 100%;
-    }
-    .owl-carousel .owl-item >div >div{
-        height: 100%;
-    }
+.owl-carousel .owl-item {
+  height: 320px !important;
+}
+.owl-carousel .owl-item > div {
+  height: 100%;
+}
+
+@media (min-width: 968px) {
+  .owl-carousel .owl-item > div > div {
+    height: 100%;
+  }
+
+  .services-block-three .inner-box .lower-content {
+    height: 200px;
+  }
+}
+
+@media (max-width: 456px) {
+  .choose-section .carousel-column .owl-nav {
+    margin-top: -50px;
+  }
+}
+
+.services-block-three .inner-box .lower-content h3 a {
+  text-decoration: underline !important;
+}
 </style>

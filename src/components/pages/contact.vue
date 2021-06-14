@@ -3,7 +3,7 @@
     <!--Page Title-->
     <section
       class="page-title"
-      style="background-image: url(images/background/11.jpg);"
+      style="background-image: url(images/background/12.jpg);"
     >
       <div class="auto-container">
         <h1>Contacter</h1>

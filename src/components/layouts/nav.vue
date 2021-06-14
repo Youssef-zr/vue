@@ -122,16 +122,33 @@
                           nos-valeurs-et-engagements
                         </router-link>
                       </li>
+                    </ul>
+                  </li>
+                  <li
+                    class="dropdown"
+                    :class="
+                      ['acac', 'ac', 'aud'].includes($route.name)
+                        ? 'current'
+                        : ''
+                    "
+                  >
+                    <router-link to="/Audit">
+                      Audit
+                    </router-link>
+                    <ul>
                       <li>
-                        <router-link to="/nos-partenaires">
-                          nos-partenaires
+                        <router-link to="/audit-commissariat-aux-comptes">
+                          AUDIT-COMMISSARIAT AUX COMPTES
+                        </router-link>
+                      </li>
+                      <li>
+                        <router-link to="/audit-contractuel">
+                          audit-contractuel
                         </router-link>
                       </li>
                     </ul>
                   </li>
-                  <li>
-                    <router-link to="/Audit">Audit</router-link>
-                  </li>
+
                   <li>
                     <router-link to="/Expertise-Comptable">
                       Expertise Comptable
@@ -150,48 +167,6 @@
                 </ul>
               </div>
             </nav>
-
-            <!-- Main Menu End-->
-            <div class="outer-box">
-              <!--Search Box-->
-              <div class="search-box-outer">
-                <div class="dropdown">
-                  <button
-                    class="search-box-btn dropdown-toggle"
-                    type="button"
-                    id="dropdownMenu3"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    <span class="fa fa-search"></span>
-                  </button>
-                  <ul
-                    class="dropdown-menu pull-right search-panel"
-                    aria-labelledby="dropdownMenu3"
-                  >
-                    <li class="panel-outer">
-                      <div class="form-container">
-                        <form method="post" action="blog.html">
-                          <div class="form-group">
-                            <input
-                              type="search"
-                              name="field-name"
-                              value=""
-                              placeholder="Search Here"
-                              required
-                            />
-                            <button type="submit" class="search-btn">
-                              <span class="fa fa-search"></span>
-                            </button>
-                          </div>
-                        </form>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -256,15 +231,31 @@
                             nos-valeurs-et-engagements
                           </router-link>
                         </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="dropdown"
+                      :class="
+                        ['acac', 'ac', 'ad'].includes($route.name)
+                          ? 'current'
+                          : ''
+                      "
+                    >
+                      <router-link to="/Audit">
+                        Audit
+                      </router-link>
+                      <ul>
                         <li>
-                          <router-link to="/nos-partenaires">
-                            nos-partenaires
+                          <router-link to="/audit-commissariat-aux-comptes">
+                            AUDIT-COMMISSARIAT AUX COMPTES
+                          </router-link>
+                        </li>
+                        <li>
+                          <router-link to="/audit-contractuel">
+                            audit-contractuel
                           </router-link>
                         </li>
                       </ul>
-                    </li>
-                    <li>
-                      <router-link to="/Audit">Audit</router-link>
                     </li>
                     <li>
                       <router-link to="/Expertise-Comptable">
@@ -300,7 +291,7 @@
     color: #009dea !important;
   }
 
-  .dropdown .router-link-active {
+  .dropdown ul .router-link-active {
     color: #fff !important;
   }
 }

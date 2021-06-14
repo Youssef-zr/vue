@@ -1,98 +1,104 @@
 <template>
-  <div class="section-about-engagements">
+  <div class="section-audit">
     <!--Page Title-->
     <section
       class="page-title"
       style="background-image: url(/images/background/12.jpg);"
     >
       <div class="auto-container">
-        <h1>nos-valeurs-et-engagements</h1>
+        <h1>Audit</h1>
         <ul class="page-breadcrumb">
           <li>
             <router-link to="/accueil">Accueil</router-link>
           </li>
-          <li>nos-valeurs-et-engagements</li>
+          <li>Audit</li>
         </ul>
       </div>
     </section>
     <!--End Page Title-->
-    <!--Services Section-->
-    <section class="services-section">
+    <!--Welcome Section-->
+    <section class="welcome-section text-left">
       <div class="auto-container">
-        <!--Sec Title-->
-        <div class="sec-title">
-          <div class="title">nos-valeurs-et-engagements</div>
-          <p>
-            A l’écoute de leurs problématiques et avec une connaissance
-            approfondie des métiers de ses clients, FIREC & ASSOCIES se
-            positionne en réel partenaire du chef d’entreprise et des
-            différentes directions pour les accompagner dans toutes les phases
-            de leur développement, tant au Maroc qu’à l’étranger.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!--End Services Section-->
-    <!--Fluid Section Two-->
-    <section class="fluid-section-two">
-      <div class="outer-container clearfix">
-        <!--Image Column-->
-        <div
-          class="image-column"
-          style="background-image: url(images/resource/image-2.jpg);"
-        >
-          <figure class="image-box">
-            <img src="images/resource/image-2.jpg" alt="" />
-          </figure>
-        </div>
-        <!--Content Column-->
-        <div class="content-column">
-          <div class="inner-column">
-            <!--Sec Title-->
-            <div class="sec-title light">
-              <div class="title">
-                FIREC & ASSOCIES est inspiré par des valeurs fortes :
+        <div class="row clearfix">
+          <!--Content Column-->
+          <div class="content-column col-lg-7 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <!--Sec Title-->
+              <div class="sec-title pb-2">
+                <div class="title">Audit</div>
+              </div>
+              <div class="text mt-0">
+                FIREC & ASSOCIES intervient, en tant que commissaire aux comptes
+                et conseiller auprès de sociétés de droit marocain et de
+                sociétés étrangères, de sociétés cotées sur le marché boursier
+                de Casablanca, d’associations et de groupes de toutes tailles et
+                tous secteurs d’activités.
+              </div>
+              <div class="clearfix">
+                <div class="pull-left">
+                  <router-link to="/contact" class="theme-btn btn-style-four">
+                    Contacter
+                  </router-link>
+                </div>
+                <div class="pull-right">
+                  <div class="phone">
+                    <span class="icon fa fa-phone"></span>
+                    05.55.55.55.55
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="team-content">
-              <h3>Réactivité</h3>
+          </div>
+
+          <!--Image Column-->
+          <div class="image-column col-lg-5 col-md-12 col-sm-12">
+            <div class="inner-column mt-md-5 text-secondary">
               <div class="text">
-                Nous nous engageons à traiter chaque demande avec une égale
-                diligence et à mettre en œuvre toutes les ressources de notre
-                cabinet afin de garantir à nos clients le respect des délais.
+                Les missions d’audit sont réalisées conformément aux normes de
+                l’Ordre des Experts Comptables. Elles sont également en
+                adéquation avec notre compréhension globale et transversale de
+                l’entreprise. Elles participent à vous aider à valider,
+                comprendre et interpréter l’information comptable et financière.
+                Ces missions aboutissent à vous donner une opinion
+                professionnelle indépendante.
               </div>
-            </div>
-            <div class="team-content">
-              <h3>Innovation</h3>
+              <hr />
               <div class="text">
-                L’éthique est au centre de notre profession et nous nous devons
-                d’agir dans le respect des règles déontologiques.
+                La mixité de nos équipes (auditeurs financiers, experts métiers,
+                évaluateurs, consultants spécialisés et juristes) nous permet
+                d’apporter une approche polyvalente et adaptée aux exigences de
+                nos clients. Elles interviennent et s’impliquent à vos côtés
+                pour ainsi vous assurer une disponibilité et une réactivité
+                digne d’un professionnel expérimenté.
               </div>
-            </div>
-            <div class="team-content">
-              <h3>Innovation</h3>
+              <hr />
               <div class="text">
-                Nous estimons que chaque situation est différente et appelle, en
-                conséquence, des solutions adaptées. Nous mettons donc tout en
-                œuvre afin d’offrir à nos clients les solutions opérationnelles
-                les plus innovantes.
+                La maitrise du référentiel comptable local et international
+                (I.F.R.S) nous permet de vous fournir des prestations techniques
+                de haute qualité.
               </div>
-            </div>
-            <div class="team-content">
-              <h3>Indépendance</h3>
               <div class="text">
-                FIREC & ASSOCIES exerce la profession d’’expertise comptable et
-                d’audit en toute autonomie et dans le respect des règles
-                déontologiques applicables sur le plan national et
-                international.
+                Les missions proposées par le cabinet FIREC & ASSOCIES sont
+                subdivisées en deux catégories :
               </div>
             </div>
           </div>
         </div>
+        <!-- buttons -->
+        <div class="buttons mt-4 text-center">
+          <router-link
+            to="/audit-commissariat-aux-comptes"
+            class="theme-btn btn-style-three m-2"
+          >
+            COMMISSARIAT AUX COMPTES
+          </router-link>
+          <router-link to="/contact" class="theme-btn btn-style-three m-2">
+            audit-contractuel
+          </router-link>
+        </div>
       </div>
     </section>
-    <!--End Fluid Section Two-->
-
+    <!--End Welcome Section-->
     <!--Blog Page Section-->
     <section class="blog-page-section">
       <div class="auto-container">
