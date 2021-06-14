@@ -341,4 +341,4 @@ $(()=> {
 		handlePreloader();
 	});	
 
-})(window.jQuery);
+})
