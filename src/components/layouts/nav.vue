@@ -123,6 +123,7 @@
                         </router-link>
                       </li>
                     </ul>
+                    
                   </li>
                   <li
                     class="dropdown"
@@ -357,13 +358,15 @@
 </template>
 
 <style lang="scss">
-.navigation {
-  .router-link-exact-active {
-    color: #009dea !important;
-  }
+@media (min-width: 968px) {
+  .navigation {
+    .router-link-exact-active {
+      color: #009dea !important;
+    }
 
-  .dropdown ul .router-link-active {
-    color: #fff !important;
+    .dropdown ul .router-link-active {
+      color: #fff !important;
+    }
   }
 }
 </style>
