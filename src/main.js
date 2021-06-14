@@ -11,7 +11,7 @@ import pnc from "./components/pages/about/about-1";
 // nos-valeurs-et-engagements
 import nve from "./components/pages/about/about-2";
 // nos-partenaires
-import np from "./components/pages/about/about-3";
+// import np from "./components/pages/about/about-3";
 // ---------------------------------------------------
 
 // -----------------  audit dropDown -----------------

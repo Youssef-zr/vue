@@ -80,7 +80,7 @@
                 <h6>
                   <router-link
                     to="/conseil-juridique-et-fiscal"
-                    class="text-blue"
+                    class="text-dark"
                   >
                     conseil juridique et fiscal
                   </router-link>
@@ -96,7 +96,7 @@
                 <h6>
                   <router-link
                     to="/conseil-en-strategie-et-en-organisation"
-                    class="text-blue"
+                    class="text-dark"
                   >
                     Conseil en stratégie et en organisation
                   </router-link>
@@ -110,7 +110,7 @@
                   <span class="fa fa-lightbulb-o"></span>
                 </div>
                 <h6>
-                  <router-link to="/conseil-en-corporate" class="text-blue">
+                  <router-link to="/conseil-en-corporate" class="text-dark">
                     Conseil en corporate
                   </router-link>
                 </h6>
@@ -123,7 +123,7 @@
                   <span class="fa fa-lightbulb-o"></span>
                 </div>
                 <h6>
-                  <router-link to="/Conseil en SI" class="text-blue">
+                  <router-link to="/Conseil en SI" class="text-dark">
                     Conseil en SI
                   </router-link>
                 </h6>
