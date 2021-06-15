@@ -793,6 +793,7 @@
 // import $ from 'jquery'
 export default {
   created() {
+    let $ = window.$;
     setTimeout(() => {
       // prepare slider revolution
       $('#rev_slider_one')
