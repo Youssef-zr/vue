@@ -1,12 +1,11 @@
 $(()=> {
 	// hide spinnner icon
 	setTimeout(() => {
-		
 		$('body').find('.spinner').fadeOut('500').parentsUntil('body').css({
 			overflow:'visible'
 		})
 	}, 2000);
-	
+
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
 		if($('.preloader').length){
