@@ -6,12 +6,12 @@
       style="background-image: url(/images/background/12.jpg);"
     >
       <div class="auto-container">
-        <h1>nos-valeurs-et-engagements</h1>
+        <h1>nos valeurs et engagements</h1>
         <ul class="page-breadcrumb">
           <li>
             <router-link to="/accueil">Accueil</router-link>
           </li>
-          <li>nos-valeurs-et-engagements</li>
+          <li>nos valeurs et engagements</li>
         </ul>
       </div>
     </section>
@@ -21,7 +21,7 @@
       <div class="auto-container">
         <!--Sec Title-->
         <div class="sec-title">
-          <div class="title">nos-valeurs-et-engagements</div>
+          <div class="title">nos valeurs et engagements</div>
           <p>
             A l’écoute de leurs problématiques et avec une connaissance
             approfondie des métiers de ses clients, FIREC & ASSOCIES se

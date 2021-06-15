@@ -430,6 +430,362 @@
       </div>
     </section>
     <!--End Choose Section-->
+    <!--Blog Page Section-->
+    <section class="blog-page-section">
+      <div class="auto-container">
+        <div class="sec-title">
+          <h3 class="title">Articles Récents</h3>
+        </div>
+        <div class="row clearfix">
+          <!--News Block-->
+          <div class="news-block col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/resource/news-6.jpg" alt="" />
+                <a
+                  href="images/resource/news-6.jpg"
+                  class="overlay-box"
+                  data-fancybox="gallery"
+                  data-caption=""
+                >
+                  <span class="icon flaticon-full-screen"></span>
+                </a>
+                <div class="post-date">
+                  <span>28</span>
+                  DEC
+                </div>
+              </div>
+              <div class="lower-content">
+                <h3>
+                  <a href="blog-detail.html">
+                    Our operations worldwide have been neutral.
+                  </a>
+                </h3>
+                <div class="text">
+                  Lorem ipsum dolor sit amet, ei qui essent pericula convenire
+                  phaedrum lorem ipsum dolor sit amet, ei qui essent pericula
+                  convenire.
+                </div>
+                <ul class="post-meta">
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-commenting-o"></span>
+                      02
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-user"></span>
+                      Admin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-heart-o"></span>
+                      03
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--News Block-->
+          <div class="news-block col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/resource/news-10.jpg" alt="" />
+                <a
+                  href="images/resource/news-10.jpg"
+                  class="overlay-box"
+                  data-fancybox="gallery"
+                  data-caption=""
+                >
+                  <span class="icon flaticon-full-screen"></span>
+                </a>
+                <div class="post-date">
+                  <span>16</span>
+                  oct
+                </div>
+              </div>
+              <div class="lower-content">
+                <h3>
+                  <a href="blog-detail.html">
+                    7 Tips To Move Your Project Move Forward.
+                  </a>
+                </h3>
+                <div class="text">
+                  Lorem ipsum dolor sit amet, ei qui essent pericula convenire
+                  phaedrum lorem ipsum dolor sit amet, ei qui essent pericula
+                  convenire.
+                </div>
+                <ul class="post-meta">
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-commenting-o"></span>
+                      02
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-user"></span>
+                      Admin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-heart-o"></span>
+                      03
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--News Block-->
+          <div class="news-block col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/resource/news-11.jpg" alt="" />
+                <a
+                  href="images/resource/news-11.jpg"
+                  class="overlay-box"
+                  data-fancybox="gallery"
+                  data-caption=""
+                >
+                  <span class="icon flaticon-full-screen"></span>
+                </a>
+                <div class="post-date">
+                  <span>10</span>
+                  sep
+                </div>
+              </div>
+              <div class="lower-content">
+                <h3>
+                  <a href="blog-detail.html">
+                    Don’t Worry About Creativity and Inspiration.
+                  </a>
+                </h3>
+                <div class="text">
+                  Lorem ipsum dolor sit amet, ei qui essent pericula convenire
+                  phaedrum lorem ipsum dolor sit amet, ei qui essent pericula
+                  convenire.
+                </div>
+                <ul class="post-meta">
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-commenting-o"></span>
+                      02
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-user"></span>
+                      Admin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-heart-o"></span>
+                      03
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--News Block-->
+          <div class="news-block col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/resource/news-12.jpg" alt="" />
+                <a
+                  href="images/resource/news-12.jpg"
+                  class="overlay-box"
+                  data-fancybox="gallery"
+                  data-caption=""
+                >
+                  <span class="icon flaticon-full-screen"></span>
+                </a>
+                <div class="post-date">
+                  <span>28</span>
+                  dec
+                </div>
+              </div>
+              <div class="lower-content">
+                <h3>
+                  <a href="blog-detail.html">
+                    Wall Street Taking Notes on Spotify Debut
+                  </a>
+                </h3>
+                <div class="text">
+                  Lorem ipsum dolor sit amet, ei qui essent pericula convenire
+                  phaedrum lorem ipsum dolor sit amet, ei qui essent pericula
+                  convenire.
+                </div>
+                <ul class="post-meta">
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-commenting-o"></span>
+                      02
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-user"></span>
+                      Admin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-heart-o"></span>
+                      03
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--News Block-->
+          <div class="news-block col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/resource/news-13.jpg" alt="" />
+                <a
+                  href="images/resource/news-13.jpg"
+                  class="overlay-box"
+                  data-fancybox="gallery"
+                  data-caption=""
+                >
+                  <span class="icon flaticon-full-screen"></span>
+                </a>
+                <div class="post-date">
+                  <span>16</span>
+                  oct
+                </div>
+              </div>
+              <div class="lower-content">
+                <h3>
+                  <a href="blog-detail.html">
+                    Dollar Slips Versus Yen As Trade Tensions Outlook
+                  </a>
+                </h3>
+                <div class="text">
+                  Lorem ipsum dolor sit amet, ei qui essent pericula convenire
+                  phaedrum lorem ipsum dolor sit amet, ei qui essent pericula
+                  convenire.
+                </div>
+                <ul class="post-meta">
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-commenting-o"></span>
+                      02
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-user"></span>
+                      Admin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-heart-o"></span>
+                      03
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--News Block-->
+          <div class="news-block col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/resource/news-14.jpg" alt="" />
+                <a
+                  href="images/resource/news-14.jpg"
+                  class="overlay-box"
+                  data-fancybox="gallery"
+                  data-caption=""
+                >
+                  <span class="icon flaticon-full-screen"></span>
+                </a>
+                <div class="post-date">
+                  <span>10</span>
+                  sep
+                </div>
+              </div>
+              <div class="lower-content">
+                <h3>
+                  <a href="blog-detail.html">
+                    Asia Shares Fail To Bounce With Wall Street
+                  </a>
+                </h3>
+                <div class="text">
+                  Lorem ipsum dolor sit amet, ei qui essent pericula convenire
+                  phaedrum lorem ipsum dolor sit amet, ei qui essent pericula
+                  convenire.
+                </div>
+                <ul class="post-meta">
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-commenting-o"></span>
+                      02
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-user"></span>
+                      Admin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog-detail.html">
+                      <span class="icon fa fa-heart-o"></span>
+                      03
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Styled Pagination-->
+        <ul class="styled-pagination text-center">
+          <li class="prev">
+            <a href="#"><span class="fa fa-long-arrow-left"></span></a>
+          </li>
+          <li><a href="#">1</a></li>
+          <li><a href="#" class="active">2</a></li>
+          <li><a href="#">3</a></li>
+          <li class="next">
+            <a href="#"><span class="fa fa-long-arrow-right"></span></a>
+          </li>
+        </ul>
+        <!--End Styled Pagination-->
+      </div>
+    </section>
+    <!--End Blog Page Section-->
+
+    <!-- Call To Action -->
+    <section class="call-to-action">
+      <div class="auto-container">
+        <div class="inner-container clearfix">
+          <h3>
+            Besoin d’un conseil ? N’hésitez pas à nous contacter.
+          </h3>
+          <router-link to="/contact" class="contact-btn">
+            Contacter
+          </router-link>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

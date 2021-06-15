@@ -17,12 +17,12 @@
               <!--Info Box-->
               <div class="upper-column info-box">
                 <div class="icon-box">
-                  <span class="flaticon-location-pin"></span>
+                  <span class="flaticon-timer"></span>
                 </div>
                 <ul>
                   <li>
-                    <strong>08:00 am - 16:00 pm</strong>
-                    We Are Open For You
+                    <strong>09:00 am - 17:00 pm</strong>
+                    Horaires Du Travail
                   </li>
                 </ul>
               </div>
@@ -34,27 +34,27 @@
                 </div>
                 <ul>
                   <li>
-                    <strong>1-800-985-357</strong>
-                    We Feel Happy to Talk
+                    <strong>05.00.00.00.00</strong>
+                    Nous Serons Heureux De Répondre à Vos Questions
                   </li>
                 </ul>
               </div>
 
               <!--Info Box-->
               <div class="upper-column info-box">
-                <div class="icon-box"><span class="flaticon-timer"></span></div>
+                <div class="icon-box"><span class="flaticon-location-pin"></span></div>
                 <ul>
                   <li>
                     <strong>info@sentiment.com</strong>
-                    Send Your Masages
+                     Envoyez Vos Masages
                   </li>
                 </ul>
               </div>
             </div>
             <ul class="header-info-list">
-              <li>Help Desk</li>
-              <li>Get A Free Quote</li>
-              <li>Our Onlilne Shop</li>
+              <li>Audit</li>
+              <li>Expertise-Comptable</li>
+              <li class="not">Conseil</li>
 
               <li class="social">
                 <span><a href="#" class="fa fa-facebook"></a></span>
@@ -100,31 +100,7 @@
                   <li>
                     <router-link to="/">Accueil</router-link>
                   </li>
-                  <li
-                    class="dropdown"
-                    :class="
-                      ['pnc', 'nve', 'np'].includes($route.name)
-                        ? 'current'
-                        : ''
-                    "
-                  >
-                    <a href="#" @click="(e) => e.preventDefault()">
-                      Qui Sommes Nous
-                    </a>
-                    <ul>
-                      <li>
-                        <router-link to="/pourquoi-nous-choisir">
-                          pourquoi-nous-choisir
-                        </router-link>
-                      </li>
-                      <li>
-                        <router-link to="/nos-valeurs-et-engagements">
-                          nos-valeurs-et-engagements
-                        </router-link>
-                      </li>
-                    </ul>
-                    
-                  </li>
+
                   <li
                     class="dropdown"
                     :class="
@@ -193,7 +169,30 @@
                       </li>
                     </ul>
                   </li>
-
+                  <li
+                    class="dropdown"
+                    :class="
+                      ['pnc', 'nve', 'np'].includes($route.name)
+                        ? 'current'
+                        : ''
+                    "
+                  >
+                    <a href="#" @click="(e) => e.preventDefault()">
+                      À propos
+                    </a>
+                    <ul>
+                      <li>
+                        <router-link to="/pourquoi-nous-choisir">
+                          pourquoi-nous-choisir
+                        </router-link>
+                      </li>
+                      <li>
+                        <router-link to="/nos-valeurs-et-engagements">
+                          nos-valeurs-et-engagements
+                        </router-link>
+                      </li>
+                    </ul>
+                  </li>
                   <li>
                     <router-link to="/contact">
                       <i class="fa fa-phone"></i>
@@ -245,30 +244,7 @@
                     <li>
                       <router-link to="/">Accueil</router-link>
                     </li>
-                    <li
-                      class="dropdown"
-                      :class="
-                        ['pnc', 'nve', 'np'].includes($route.name)
-                          ? 'current'
-                          : ''
-                      "
-                    >
-                      <a href="#" @click="(e) => e.preventDefault()">
-                        Qui Sommes Nous
-                      </a>
-                      <ul>
-                        <li>
-                          <router-link to="/pourquoi-nous-choisir">
-                            pourquoi-nous-choisir
-                          </router-link>
-                        </li>
-                        <li>
-                          <router-link to="/nos-valeurs-et-engagements">
-                            nos-valeurs-et-engagements
-                          </router-link>
-                        </li>
-                      </ul>
-                    </li>
+
                     <li
                       class="dropdown"
                       :class="
@@ -337,7 +313,30 @@
                         </li>
                       </ul>
                     </li>
-
+                    <li
+                      class="dropdown"
+                      :class="
+                        ['pnc', 'nve', 'np'].includes($route.name)
+                          ? 'current'
+                          : ''
+                      "
+                    >
+                      <a href="#" @click="(e) => e.preventDefault()">
+                        À propos
+                      </a>
+                      <ul>
+                        <li>
+                          <router-link to="/pourquoi-nous-choisir">
+                            pourquoi-nous-choisir
+                          </router-link>
+                        </li>
+                        <li>
+                          <router-link to="/nos-valeurs-et-engagements">
+                            nos-valeurs-et-engagements
+                          </router-link>
+                        </li>
+                      </ul>
+                    </li>
                     <li>
                       <router-link to="/contact">
                         <i class="fa fa-phone"></i>
@@ -368,5 +367,9 @@
       color: #fff !important;
     }
   }
+}
+
+.main-header .header-upper .upper-right .header-info-list li.not::after {
+  content: '';
 }
 </style>

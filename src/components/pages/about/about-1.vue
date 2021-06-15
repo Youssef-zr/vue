@@ -6,12 +6,12 @@
       style="background-image: url(/images/background/12.jpg);"
     >
       <div class="auto-container">
-        <h1>pourquoi-nous-choisir</h1>
+        <h1>pourquoi nous choisir</h1>
         <ul class="page-breadcrumb">
           <li>
             <router-link to="/accueil">Accueil</router-link>
           </li>
-          <li>pourquoi-nous-choisir</li>
+          <li>pourquoi nous choisir</li>
         </ul>
       </div>
     </section>
@@ -21,7 +21,7 @@
       <div class="auto-container">
         <!--Sec Title-->
         <div class="sec-title">
-          <div class="title">pourquoi-nous-choisir</div>
+          <div class="title">pourquoi nous choisir</div>
           <p>
             FIREC & ASSOCIES a capitalisé grâce à la multitude de ses
             interventions, une forte

@@ -101,7 +101,7 @@
         <div class="blocks-section">
           <div class="row clearfix">
             <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-sm-12">
+            <div class="services-block col-lg-6 col-md-6 col-sm-12">
               <div class="inner-box">
                 <div class="icon-box">
                   <span class="fa fa-briefcase"></span>
@@ -161,7 +161,7 @@
               </div>
             </div>
             <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-sm-12">
+            <div class="services-block col-lg-6 col-md-6 col-sm-12">
               <div class="inner-box">
                 <div class="icon-box">
                   <span class="fa fa-globe"></span>
@@ -227,7 +227,7 @@
               </div>
             </div>
             <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-sm-12">
+            <div class="services-block col-lg-6 col-md-6 col-sm-12">
               <div class="inner-box">
                 <div class="icon-box">
                   <span class="fa fa-arrow-circle-left"></span>
@@ -295,7 +295,7 @@
               </div>
             </div>
             <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-sm-12">
+            <div class="services-block col-lg-6 col-md-6 col-sm-12">
               <div class="inner-box">
                 <div class="icon-box">
                   <span class="fa fa-arrow-circle-left"></span>
@@ -389,7 +389,7 @@
 @media (min-width: 968px) {
   .audit-contractuel {
     .services-block .inner-box {
-      min-height: 450px;
+      min-height: 370px;
     }
   }
 }
