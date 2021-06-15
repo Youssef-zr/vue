@@ -91,7 +91,7 @@
             <ul>
               <li>
                 <span class="icon flaticon-technology-2"></span>
-                +1 800125 6524
+                +212 5.00.00.00.00
                 <br />
                 mail@lezofinance.com
               </li>
@@ -102,9 +102,9 @@
             <ul>
               <li>
                 <span class="icon flaticon-clock-2"></span>
-                10:00am to 6:00pm
+                9:00am to 5:00pm
                 <br />
-                Sunday Closed
+                Dimanche Fermé
               </li>
             </ul>
           </div>

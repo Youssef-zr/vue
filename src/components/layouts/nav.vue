@@ -42,7 +42,7 @@
 
               <!--Info Box-->
               <div class="upper-column info-box">
-                <div class="icon-box"><span class="flaticon-location-pin"></span></div>
+                <div class="icon-box"><span class="fa fa-envelope-o"></span></div>
                 <ul>
                   <li>
                     <strong>info@sentiment.com</strong>
@@ -60,7 +60,6 @@
                 <span><a href="#" class="fa fa-facebook"></a></span>
                 <span><a href="#" class="fa fa-twitter"></a></span>
                 <span><a href="#" class="fa fa-google"></a></span>
-                <span><a href="#" class="fa fa-instagram"></a></span>
               </li>
             </ul>
           </div>

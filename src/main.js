@@ -23,18 +23,18 @@ import auditContractuel from "./components/pages/audit/audit-contractuel";
 import commissariatCompte from "./components/pages/audit/commissariat-compte";
 // ---------------------------------------------------
 
-// -----------------  conseil dropDown -----------------
-// conseil
+// // -----------------  conseil dropDown -----------------
+// // conseil
 import conseil from "./components/pages/conseil/conseil";
-// conseil-juridique-et-fiscal
+// // conseil-juridique-et-fiscal
 import cjef from "./components/pages/conseil/conseil-juridique-et-fiscal";
-// conseil-en-strategie-et-en-organisation
-import cseo from "./components/pages/conseil/conseil-en-strategie-et-en-organisation";
+// // conseil-en-strategie-et-en-organisation
+// import cseo from "./components/pages/conseil/conseil-en-strategie-et-en-organisation";
 // conseil-en-systeme-dinformation
-import cesd from "./components/pages/conseil/conseil-en-systeme-dinformation";
-// conseil-en-corporate
-import cec from "./components/pages/conseil/conseil-en-corporate";
-// ---------------------------------------------------
+// import cesd from "./components/pages/conseil/conseil-en-systeme-dinformation";
+// // conseil-en-corporate
+// import cec from "./components/pages/conseil/conseil-en-corporate";
+// // ---------------------------------------------------
 
 
 // contact
@@ -87,21 +87,21 @@ let routes = [
     name: "cjef",
     component: cjef
   },
-  {
-    path: "/conseil-en-systeme-dinformation",
-    name: "cesd",
-    component: cesd
-  },
-  {
-    path: "/conseil-en-strategie-et-en-organisation",
-    name: "cseo",
-    component: cseo
-  },
-  {
-    path: "/conseil-en-corporate",
-    name: "cec",
-    component: cec
-  },
+  // {
+  //   path: "/conseil-en-strategie-et-en-organisation",
+  //   name: "cseo",
+  //   component: cseo
+  // },
+  // {
+  //   path: "/conseil-en-systeme-dinformation",
+  //   name: "cesd",
+  //   component: cesd
+  // },
+  // {
+  //   path: "/conseil-en-corporate",
+  //   name: "cec",
+  //   component: cec
+  // },
   {
     path: "/Expertise-Comptable",
     name: "Expertise-Comptable",
