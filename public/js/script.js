@@ -1,22 +1,15 @@
-$(()=> {
-	// hide spinnner icon
-	setTimeout(() => {
-		$('body').find('.spinner').fadeOut('500').parentsUntil('body').css({
-			overflow:'visible'
-		})
-	}, 2000);
-
+$(() => {
 	//Hide Loading Box (Preloader)
-	function handlePreloader() {
-		if($('.preloader').length){
-			$('.preloader').delay(200).fadeOut(500);
-		}
-	}
-	
-	
+	setTimeout(() => {
+		$('.spinner').fadeOut(700);
+		$('body').css({
+			overflow: 'visible'
+		})
+	}, 500);
+
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
-		if($('.main-header').length){
+		if ($('.main-header').length) {
 			var windowpos = $(window).scrollTop();
 			var siteHeader = $('.main-header');
 			var siteHeaderHeight = $('.main-header').height();
@@ -30,45 +23,45 @@ $(()=> {
 			}
 		}
 	}
-	
+
 	headerStyle();
-	
-	
+
+
 	//Event Countdown Timer
-	if($('.time-countdown').length){  
-		$('.time-countdown').each(function() {
-		var $this = $(this), finalDate = $(this).data('countdown');
-		$this.countdown(finalDate, function(event) {
-			var $this = $(this).html(event.strftime('' + '<div class="counter-column"><span class="count">%D</span>Days</div> ' + '<div class="counter-column"><span class="count">%H</span>Hours</div>  ' + '<div class="counter-column"><span class="count">%M</span>Minutes</div>  ' + '<div class="counter-column"><span class="count">%S</span>Seconds</div>'));
+	if ($('.time-countdown').length) {
+		$('.time-countdown').each(function () {
+			var $this = $(this), finalDate = $(this).data('countdown');
+			$this.countdown(finalDate, function (event) {
+				var $this = $(this).html(event.strftime('' + '<div class="counter-column"><span class="count">%D</span>Days</div> ' + '<div class="counter-column"><span class="count">%H</span>Hours</div>  ' + '<div class="counter-column"><span class="count">%M</span>Minutes</div>  ' + '<div class="counter-column"><span class="count">%S</span>Seconds</div>'));
+			});
 		});
-	 });
 	}
-	
-	
+
+
 	//Submenu Dropdown Toggle
-	if($('.main-header li.dropdown ul').length){
+	if ($('.main-header li.dropdown ul').length) {
 		$('.main-header li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
-		
+
 		//Dropdown Button
-		$('.main-header li.dropdown .dropdown-btn').on('click', function() {
+		$('.main-header li.dropdown .dropdown-btn').on('click', function () {
 			$(this).prev('ul').slideToggle(500);
 		});
-		
+
 		//Disable dropdown parent link
-		$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
+		$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function (e) {
 			e.preventDefault();
 		});
 	}
-	
-	
+
+
 	//Fact Counter + Text Count
-	if($('.count-box').length){
-		$('.count-box').appear(function(){
-	
+	if ($('.count-box').length) {
+		$('.count-box').appear(function () {
+
 			var $t = $(this),
 				n = $t.find(".count-text").attr("data-stop"),
 				r = parseInt($t.find(".count-text").attr("data-speed"), 10);
-				
+
 			if (!$t.hasClass("counted")) {
 				$t.addClass("counted");
 				$({
@@ -78,62 +71,62 @@ $(()=> {
 				}, {
 					duration: r,
 					easing: "linear",
-					step: function() {
+					step: function () {
 						$t.find(".count-text").text(Math.floor(this.countNum));
 					},
-					complete: function() {
+					complete: function () {
 						$t.find(".count-text").text(this.countNum);
 					}
 				});
 			}
-			
-		},{accY: 0});
+
+		}, { accY: 0 });
 	}
-	
-	
+
+
 	//Price Range Slider
-	if($('.price-range-slider').length){
-		$( ".price-range-slider" ).slider({
+	if ($('.price-range-slider').length) {
+		$(".price-range-slider").slider({
 			range: true,
 			min: 0,
 			max: 90,
-			values: [ 8, 85 ],
-			slide: function( event, ui ) {
-			$( "input.property-amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+			values: [8, 85],
+			slide: function (event, ui) {
+				$("input.property-amount").val(ui.values[0] + " - " + ui.values[1]);
 			}
 		});
-		
-		$( "input.property-amount" ).val( $( ".price-range-slider" ).slider( "values", 0 ) + " - $" + $( ".price-range-slider" ).slider( "values", 1 ) );	
+
+		$("input.property-amount").val($(".price-range-slider").slider("values", 0) + " - $" + $(".price-range-slider").slider("values", 1));
 	}
-	
-	
+
+
 	//Progress Bar
-	if($('.progress-line').length){
-		$('.progress-line').appear(function(){
+	if ($('.progress-line').length) {
+		$('.progress-line').appear(function () {
 			var el = $(this);
 			var percent = el.data('width');
-			$(el).css('width',percent+'%');
-		},{accY: 0});
+			$(el).css('width', percent + '%');
+		}, { accY: 0 });
 	}
-	
-	
+
+
 	//Jquery Spinner / Quantity Spinner
-	if($('.quantity-spinner').length){
+	if ($('.quantity-spinner').length) {
 		$("input.quantity-spinner").TouchSpin({
-		  verticalbuttons: true
+			verticalbuttons: true
 		});
-	}	
-	
-	
+	}
+
+
 	//Tabs Box
-	if($('.tabs-box').length){
-		$('.tabs-box .tab-buttons .tab-btn').on('click', function(e) {
+	if ($('.tabs-box').length) {
+		$('.tabs-box .tab-buttons .tab-btn').on('click', function (e) {
 			e.preventDefault();
 			var target = $($(this).attr('data-tab'));
-			
-			if ($(target).is(':visible')){
+
+			if ($(target).is(':visible')) {
 				return false;
-			}else{
+			} else {
 				target.parents('.tabs-box').find('.tab-buttons').find('.tab-btn').removeClass('active-btn');
 				$(this).addClass('active-btn');
 				target.parents('.tabs-box').find('.tabs-content').find('.tab').fadeOut(0);
@@ -143,31 +136,31 @@ $(()=> {
 			}
 		});
 	}
-	
-	
+
+
 	//Accordion Box
-	if($('.accordion-box').length){
-		$(".accordion-box").on('click', '.acc-btn', function() {
-			
+	if ($('.accordion-box').length) {
+		$(".accordion-box").on('click', '.acc-btn', function () {
+
 			var outerBox = $(this).parents('.accordion-box');
 			var target = $(this).parents('.accordion');
-			
-			if($(this).hasClass('active')!==true){
+
+			if ($(this).hasClass('active') !== true) {
 				$(outerBox).find('.accordion .acc-btn').removeClass('active');
 			}
-			
-			if ($(this).next('.acc-content').is(':visible')){
+
+			if ($(this).next('.acc-content').is(':visible')) {
 				return false;
-			}else{
+			} else {
 				$(this).addClass('active');
 				$(outerBox).children('.accordion').removeClass('active-block');
 				$(outerBox).find('.accordion').children('.acc-content').slideUp(300);
 				target.addClass('active-block');
-				$(this).next('.acc-content').slideDown(300);	
+				$(this).next('.acc-content').slideDown(300);
 			}
-		});	
+		});
 	}
-	
+
 	// //Two Item Carousel
 	// if ($('.two-item-carousel').length) {
 	// 	$('.two-item-carousel').owlCarousel({
@@ -197,7 +190,7 @@ $(()=> {
 	// 	});    		
 	// }
 
-	
+
 	// //Three Item Carousel
 	// if ($('.three-item-carousel').length) {
 	// 	$('.three-item-carousel').owlCarousel({
@@ -259,22 +252,22 @@ $(()=> {
 	// 		}
 	// 	});    		
 	// }
-	
-	
+
+
 	//LightBox / Fancybox
-	if($('.lightbox-image').length) {
+	if ($('.lightbox-image').length) {
 		$('.lightbox-image').fancybox({
-			openEffect  : 'fade',
-			closeEffect : 'fade',
-			helpers : {
-				media : {}
+			openEffect: 'fade',
+			closeEffect: 'fade',
+			helpers: {
+				media: {}
 			}
 		});
 	}
-	
-	
+
+
 	//Contact Form Validation
-	if($('#contact-form').length){
+	if ($('#contact-form').length) {
 		$('#contact-form').validate({
 			rules: {
 				firstname: {
@@ -290,61 +283,61 @@ $(()=> {
 			}
 		});
 	}
-	
+
 	//Custom Seclect Box
-	if($('.custom-select-box').length){
+	if ($('.custom-select-box').length) {
 		$('.custom-select-box').selectmenu().selectmenu('menuWidget').addClass('overflow');
 	}
-	
-	
+
+
 	//Gallery Filters
-	if($('.filter-list').length){
+	if ($('.filter-list').length) {
 		$('.filter-list').mixItUp({});
 	}
-	
-	
+
+
 	// Scroll to a Specific Div
-	if($('.scroll-to-target').length){
-		$(".scroll-to-target").on('click', function() {
+	if ($('.scroll-to-target').length) {
+		$(".scroll-to-target").on('click', function () {
 			var target = $(this).attr('data-target');
-		   // animate
-		   $('html, body').animate({
-			   scrollTop: $(target).offset().top
-			 }, 1500);
-	
+			// animate
+			$('html, body').animate({
+				scrollTop: $(target).offset().top
+			}, 1500);
+
 		});
 	}
-	
-	
+
+
 	// Elements Animation
-	if($('.wow').length){
+	if ($('.wow').length) {
 		var wow = new WOW(
-		  {
-			boxClass:     'wow',      // animated element css class (default is wow)
-			animateClass: 'animated', // animation css class (default is animated)
-			offset:       0,          // distance to the element when triggering the animation (default is 0)
-			mobile:       false,       // trigger animations on mobile devices (default is true)
-			live:         true       // act on asynchronously loaded content (default is true)
-		  }
+			{
+				boxClass: 'wow',      // animated element css class (default is wow)
+				animateClass: 'animated', // animation css class (default is animated)
+				offset: 0,          // distance to the element when triggering the animation (default is 0)
+				mobile: false,       // trigger animations on mobile devices (default is true)
+				live: true       // act on asynchronously loaded content (default is true)
+			}
 		);
 		wow.init();
 	}
 
 
-/* ==========================================================================
-   When document is Scrollig, do
-   ========================================================================== */
-	
-	$(window).on('scroll', function() {
+	/* ==========================================================================
+	   When document is Scrollig, do
+	   ========================================================================== */
+
+	$(window).on('scroll', function () {
 		headerStyle();
 	});
-	
-/* ==========================================================================
-   When document is loading, do
-   ========================================================================== */
-	
-	$(window).on('load', function() {
+
+	/* ==========================================================================
+	   When document is loading, do
+	   ========================================================================== */
+
+	$(window).on('load', function () {
 		handlePreloader();
-	});	
+	});
 
 })

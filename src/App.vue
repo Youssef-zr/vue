@@ -31,6 +31,7 @@ export default {
     footeer,
     FingerprintSpinner,
   },
+
 }
 </script>
 
