@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- spinner -->
     <div class="spinner">
       <fingerprint-spinner
         :animation-duration="1500"

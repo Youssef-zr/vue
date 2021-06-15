@@ -790,6 +790,7 @@
 </template>
 
 <script>
+import $ from 'jquery'
 export default {
   created() {
     setTimeout(() => {
