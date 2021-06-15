@@ -792,138 +792,134 @@
 <script>
 export default {
   created() {
-    $(document).ready(function () {
-      // prepare slider
-      setTimeout(() => {
-        $('#rev_slider_one')
-          .show()
-          .revolution({
-            sliderType: 'standard',
-            jsFileLocation: 'plugins/revolution/js/',
-            sliderLayout: 'fullwidth',
-            dottedOverlay: 'yes',
-            delay: 6000,
-            navigation: {
-              keyboardNavigation: 'off',
-              keyboard_direction: 'horizontal',
-              mouseScrollNavigation: 'off',
-              mouseScrollReverse: 'default',
-              onHoverStop: 'off',
-              touch: {
-                touchenabled: 'on',
-                touchOnDesktop: 'off',
-                swipe_threshold: 75,
-                swipe_min_touches: 1,
-                swipe_direction: 'horizontal',
-                drag_block_vertical: false,
+    setTimeout(() => {
+      // prepare slider revolution
+      $('#rev_slider_one')
+        .show()
+        .revolution({
+          sliderType: 'standard',
+          jsFileLocation: 'plugins/revolution/js/',
+          sliderLayout: 'fullwidth',
+          dottedOverlay: 'yes',
+          delay: 6000,
+          navigation: {
+            keyboardNavigation: 'off',
+            keyboard_direction: 'horizontal',
+            mouseScrollNavigation: 'off',
+            mouseScrollReverse: 'default',
+            onHoverStop: 'off',
+            touch: {
+              touchenabled: 'on',
+              touchOnDesktop: 'off',
+              swipe_threshold: 75,
+              swipe_min_touches: 1,
+              swipe_direction: 'horizontal',
+              drag_block_vertical: false,
+            },
+            arrows: {
+              style: 'metis',
+              enable: true,
+              hide_onmobile: true,
+              hide_under: 600,
+              hide_onleave: false,
+              tmp: '',
+              left: {
+                h_align: 'left',
+                v_align: 'center',
+                h_offset: 0,
+                v_offset: 0,
               },
-              arrows: {
-                style: 'metis',
-                enable: true,
-                hide_onmobile: true,
-                hide_under: 600,
-                hide_onleave: false,
-                tmp: '',
-                left: {
-                  h_align: 'left',
-                  v_align: 'center',
-                  h_offset: 0,
-                  v_offset: 0,
-                },
-                right: {
-                  h_align: 'right',
-                  v_align: 'center',
-                  h_offset: 0,
-                  v_offset: 0,
-                },
+              right: {
+                h_align: 'right',
+                v_align: 'center',
+                h_offset: 0,
+                v_offset: 0,
               },
             },
-            responsiveLevels: [1200, 1040, 820, 600],
-            visibilityLevels: [1200, 1040, 820, 600],
-            gridwidth: [1200, 1040, 820, 600],
-            gridheight: [750, 600, 500, 400],
-            lazyType: 'none',
-            parallax: {
-              type: 'scroll',
-              origo: 'enterpoint',
-              speed: 400,
-              levels: [
-                5,
-                10,
-                15,
-                20,
-                25,
-                30,
-                35,
-                40,
-                45,
-                50,
-                46,
-                47,
-                48,
-                49,
-                50,
-                55,
-              ],
-            },
-            shadow: 0,
-            spinner: 'off',
-            stopLoop: 'off',
-            stopAfterLoops: -1,
-            stopAtSlide: -1,
-            shuffle: 'off',
-            autoHeight: 'off',
-            hideThumbsOnMobile: 'off',
-            hideSliderAtLimit: 0,
-            hideCaptionAtLimit: 0,
-            hideAllCaptionAtLilmit: 0,
-            debugMode: false,
-            fallbacks: {
-              simplifyAll: 'off',
-              nextSlideOnWindowFocus: 'off',
-              disableFocusListener: false,
-            },
-          })
-      }, 1000)
+          },
+          responsiveLevels: [1200, 1040, 820, 600],
+          visibilityLevels: [1200, 1040, 820, 600],
+          gridwidth: [1200, 1040, 820, 600],
+          gridheight: [750, 600, 500, 400],
+          lazyType: 'none',
+          parallax: {
+            type: 'scroll',
+            origo: 'enterpoint',
+            speed: 400,
+            levels: [
+              5,
+              10,
+              15,
+              20,
+              25,
+              30,
+              35,
+              40,
+              45,
+              50,
+              46,
+              47,
+              48,
+              49,
+              50,
+              55,
+            ],
+          },
+          shadow: 0,
+          spinner: 'off',
+          stopLoop: 'off',
+          stopAfterLoops: -1,
+          stopAtSlide: -1,
+          shuffle: 'off',
+          autoHeight: 'off',
+          hideThumbsOnMobile: 'off',
+          hideSliderAtLimit: 0,
+          hideCaptionAtLimit: 0,
+          hideAllCaptionAtLilmit: 0,
+          debugMode: false,
+          fallbacks: {
+            simplifyAll: 'off',
+            nextSlideOnWindowFocus: 'off',
+            disableFocusListener: false,
+          },
+        })
 
       // owl carousol
-      setTimeout(() => {
-        //Three Item Carousel
-        if ($('.three-item-carousel').length) {
-          $('.three-item-carousel').owlCarousel({
-            loop: true,
-            margin: 30,
-            nav: true,
-            smartSpeed: 500,
-            autoplay: 5000,
-            navText: [
-              '<span class="fa fa-angle-left"></span>',
-              '<span class="fa fa-angle-right"></span>',
-            ],
-            responsive: {
-              0: {
-                items: 1,
-              },
-              600: {
-                items: 1,
-              },
-              700: {
-                items: 2,
-              },
-              800: {
-                items: 2,
-              },
-              1024: {
-                items: 2,
-              },
-              1200: {
-                items: 3,
-              },
+      //Three Item Carousel
+      if ($('.three-item-carousel').length) {
+        $('.three-item-carousel').owlCarousel({
+          loop: true,
+          margin: 30,
+          nav: true,
+          smartSpeed: 500,
+          autoplay: 5000,
+          navText: [
+            '<span class="fa fa-angle-left"></span>',
+            '<span class="fa fa-angle-right"></span>',
+          ],
+          responsive: {
+            0: {
+              items: 1,
             },
-          })
-        }
-      }, 3000)
-    }) /*ready*/
+            600: {
+              items: 1,
+            },
+            700: {
+              items: 2,
+            },
+            800: {
+              items: 2,
+            },
+            1024: {
+              items: 2,
+            },
+            1200: {
+              items: 3,
+            },
+          },
+        })
+      }
+    }, 300)
   },
 }
 </script>
