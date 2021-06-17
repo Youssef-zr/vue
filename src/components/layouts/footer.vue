@@ -12,11 +12,14 @@
             <div class="inner-column">
               <h2 class="text-capitalize">à propos de nous</h2>
               <div class="text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries.
+                <p class="mb-0">
+                  Proband Consulting est un cabinet d’audit, de conseil et
+                  d’expertise comptable, implanté au Maroc.
+                </p>
+                <p>
+                  Proband Consulting offre à ses clients une prestation
+                  intellectuelle, globale, efficace à haute valeur ajoutée.
+                </p>
               </div>
               <div class="copyright-box">
                 <div class="logo">
@@ -34,27 +37,30 @@
           <div class="info-column col-lg-5 col-md-12 col-sm-12">
             <div class="inner-column">
               <h2 class="text-capitalize">contacter</h2>
-              <div class="number">05.00.00.00.00</div>
+              <div class="number">+2126.45.90.33.30</div>
               <ul class="info-list">
                 <li>
                   <span>Email :</span>
-                  info@sentiment.com
+                  contact@probandconsulting.com
                 </li>
                 <li>
                   <span>horaires du travail :</span>
                   09:00 am - 17:00 pm
                 </li>
+                <li class="d-flex">
+                  <span class="d-block mr-2">Adresse:</span>
+                  29 RUE AMR IBN ASS 3EME ETG N 26 , Tanger
+                </li>
               </ul>
-              <ul class="social-icon-two">
-                <li>Suivez Nous :</li>
+              <ul class="social-icon-two d-flex">
+                <li class="text-light text-underline">Suivez Nous :</li>
                 <li>
-                  <a href="#"><span class="fa fa-facebook"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="fa fa-twitter"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="fa fa-google-plus"></span></a>
+                  <a
+                    href="https://www.facebook.com/ProBand-Consulting-112063996971642"
+                    target="_blank"
+                  >
+                    <span class="fa fa-facebook-square fa-2x text-blue"></span>
+                  </a>
                 </li>
               </ul>
             </div>

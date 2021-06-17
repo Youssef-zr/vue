@@ -77,7 +77,7 @@
         <div class="auto-container">
           <div class="sec-title">
             <div class="title">Notre offre s’organise autour de 2 thématiques</div>
-            <p class="text">FIREC & ASSOCIES intervient auprès de grands groupes nationaux et internationaux sur des domaines très variés de la fiscalité et du juridique des entreprises.</p>
+            <p class="text">Proband Consulting intervient auprès de grands groupes nationaux et internationaux sur des domaines très variés de la fiscalité et du juridique des entreprises.</p>
           </div>
           <div class="row clearfix">
             <!--Step Block-->

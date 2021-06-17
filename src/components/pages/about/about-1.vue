@@ -23,7 +23,7 @@
         <div class="sec-title">
           <div class="title">pourquoi nous choisir</div>
           <p>
-            FIREC & ASSOCIES a capitalisé grâce à la multitude de ses
+            Proband Consulting a capitalisé grâce à la multitude de ses
             interventions, une forte
             <br />
             expérience dans ses domaines de compétences.

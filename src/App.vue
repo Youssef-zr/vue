@@ -23,7 +23,7 @@
 <script>
 import navigation from './components/layouts/nav'
 import footeer from './components/layouts/footer'
-import { FingerprintSpinner } from 'epic-spinners'
+import  { FingerprintSpinner }  from 'epic-spinners'
 export default {
   name: 'app',
   components: {

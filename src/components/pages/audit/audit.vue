@@ -28,7 +28,7 @@
                 <div class="title">Audit</div>
               </div>
               <div class="text mt-0">
-                FIREC & ASSOCIES intervient, en tant que commissaire aux comptes
+                Proband Consulting intervient, en tant que commissaire aux comptes
                 et conseiller auprès de sociétés de droit marocain et de
                 sociétés étrangères, de sociétés cotées sur le marché boursier
                 de Casablanca, d’associations et de groupes de toutes tailles et
@@ -78,7 +78,7 @@
                 de haute qualité.
               </div>
               <div class="text">
-                Les missions proposées par le cabinet FIREC & ASSOCIES sont
+                Les missions proposées par le cabinet Proband Consulting sont
                 subdivisées en deux catégories :
               </div>
             </div>

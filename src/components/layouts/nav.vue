@@ -15,7 +15,7 @@
           <div class="pull-right upper-right">
             <div class="info-columns clearfix">
               <!--Info Box-->
-              <div class="upper-column info-box">
+              <div class="upper-column info-box info-item">
                 <div class="icon-box">
                   <span class="flaticon-timer"></span>
                 </div>
@@ -28,25 +28,27 @@
               </div>
 
               <!--Info Box-->
-              <div class="upper-column info-box">
+              <div class="upper-column info-box info-item">
                 <div class="icon-box">
                   <span class="flaticon-technology-1"></span>
                 </div>
                 <ul>
                   <li>
-                    <strong>05.00.00.00.00</strong>
+                    <strong>+2126.45.90.33.30</strong>
                     Nous Serons Heureux De Répondre à Vos Questions
                   </li>
                 </ul>
               </div>
 
               <!--Info Box-->
-              <div class="upper-column info-box">
-                <div class="icon-box"><span class="fa fa-envelope-o"></span></div>
+              <div class="upper-column info-box info-item">
+                <div class="icon-box">
+                  <span class="fa fa-envelope-o"></span>
+                </div>
                 <ul>
                   <li>
-                    <strong>info@sentiment.com</strong>
-                     Envoyez Vos Masages
+                    <strong>contact@probandconsulting.com</strong>
+                    Envoyez Vos Masages
                   </li>
                 </ul>
               </div>
@@ -57,9 +59,10 @@
               <li class="not">Conseil</li>
 
               <li class="social">
-                <span><a href="#" class="fa fa-facebook"></a></span>
-                <span><a href="#" class="fa fa-twitter"></a></span>
-                <span><a href="#" class="fa fa-google"></a></span>
+                <span>
+                  <i class="fa fa-map-marker fa-2x"></i>
+                  29 RUE AMR IBN ASS 3EME ETG N 26 , Tanger
+                </span>
               </li>
             </ul>
           </div>
@@ -370,5 +373,17 @@
 
 .main-header .header-upper .upper-right .header-info-list li.not::after {
   content: '';
+}
+.info-item:not(:nth-child(2)) {
+  li strong {
+    font-size: 12px !important;
+    font-weight: bolder !important;
+  }
+}
+.info-item:nth-child(2) {
+  li strong {
+    font-size: 14px !important;
+    font-weight: bolder !important;
+  }
 }
 </style>

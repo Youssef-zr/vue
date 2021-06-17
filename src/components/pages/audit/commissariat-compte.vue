@@ -96,7 +96,7 @@
         <div class="auto-container">
           <div class="title">Nous Sommes Des Professionnels</div>
           <h5 class="text-light">
-            FIREC & ASSOCIES vous accompagne dans le cadre des missions
+            Proband Consulting vous accompagne dans le cadre des missions
             suivantes
           </h5>
         </div>
@@ -279,7 +279,7 @@
           <div class="row mt-4">
             <div class="col-md-6">
               <div class="text">
-                Par ailleurs, FIREC & ASSOCIES est souvent amené à intervenir
+                Par ailleurs, Proband Consulting est souvent amené à intervenir
                 dans un cadre légal, afin de contrôler les opérations de fusion,
                 scission et apports partiels d’actif. Notre intervention conduit
                 à l’émission d’une opinion indépendante concernant

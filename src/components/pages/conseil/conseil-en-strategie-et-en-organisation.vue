@@ -29,7 +29,7 @@
                 <div class="title">conseil en strategie et en organisation</div>
               </div>
               <div class="text mt-0">
-                FIREC & ASSOCIES accompagne les entreprises publiques et privées
+                Proband Consulting accompagne les entreprises publiques et privées
                 dans leurs projets de transformation et de recherche de la
                 performance. A partir de notre compréhension des enjeux
                 stratégiques des métiers et des fonctions, nous aidons à

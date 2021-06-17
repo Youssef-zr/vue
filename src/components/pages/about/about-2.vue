@@ -24,7 +24,7 @@
           <div class="title">nos valeurs et engagements</div>
           <p>
             A l’écoute de leurs problématiques et avec une connaissance
-            approfondie des métiers de ses clients, FIREC & ASSOCIES se
+            approfondie des métiers de ses clients, Proband Consulting se
             positionne en réel partenaire du chef d’entreprise et des
             différentes directions pour les accompagner dans toutes les phases
             de leur développement, tant au Maroc qu’à l’étranger.
@@ -51,7 +51,7 @@
             <!--Sec Title-->
             <div class="sec-title light">
               <div class="title">
-                FIREC & ASSOCIES est inspiré par des valeurs fortes :
+                Proband Consulting est inspiré par des valeurs fortes :
               </div>
             </div>
             <div class="team-content">
@@ -81,7 +81,7 @@
             <div class="team-content">
               <h3>Indépendance</h3>
               <div class="text">
-                FIREC & ASSOCIES exerce la profession d’’expertise comptable et
+                Proband Consulting exerce la profession d’’expertise comptable et
                 d’audit en toute autonomie et dans le respect des règles
                 déontologiques applicables sur le plan national et
                 international.

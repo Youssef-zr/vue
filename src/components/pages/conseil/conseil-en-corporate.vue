@@ -30,7 +30,7 @@
               </div>
               <div class="text mt-0">
                 Grâce son expérience approfondie et à sa connaissance aguerrie
-                du tissue économique marocain, FIREC & ASSOCIES assiste ses
+                du tissue économique marocain, Proband Consulting assiste ses
                 clients pour mettre au point une stratégie de développement
                 optimale. En effet, afin de renforcer vos entreprises, vous
                 pouvez être amené à lever des fonds, céder vos activités en

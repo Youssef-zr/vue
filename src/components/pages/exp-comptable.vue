@@ -23,7 +23,7 @@
         <div class="sec-title">
           <div class="title">EXPERTISE COMPTABLE</div>
           <p>
-            FIREC & ASSOCIES est en mesure de vous accompagner tout au long de
+            Proband Consulting est en mesure de vous accompagner tout au long de
             votre projet d’entreprise
             <br />
             depuis sa création et ce, afin de vous assurer un suivi efficace et

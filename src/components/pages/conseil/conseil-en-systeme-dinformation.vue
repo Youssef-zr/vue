@@ -29,7 +29,7 @@
                 <div class="title">CONSEIL EN SYSTÈME D’INFORMATION</div>
               </div>
               <div class="text mt-0">
-                FIREC & ASSOCIES assiste et conseille les directions générales,
+                Proband Consulting assiste et conseille les directions générales,
                 les directions des systèmes d’information et les directions
                 métiers, à aligner leurs organisations sur leurs stratégies et à
                 réussir leurs transformations, pour une meilleure performance
@@ -55,7 +55,7 @@
           <div class="image-column col-lg-5 col-md-12 col-sm-12">
             <div class="inner-column mt-md-5 text-secondary">
               <img
-                src="/images/resource/conseil-corporate.jpg"
+                src="/images/resource/22.jpg"
                 alt="fiscale"
                 class="img-thumbnail"
               />

@@ -343,11 +343,11 @@
             <div class="inner-column">
               <div class="text">
                 <p>
-                  Créé en 1981, FIREC et ASSOCIES est un cabinet d’audit, de
+                  Proband Consulting est un cabinet d’audit, de
                   conseil et d’expertise comptable, implanté au Maroc.
                 </p>
                 <p>
-                  FIREC et ASSOCIES offre à ses clients une prestation
+                  Proband Consulting offre à ses clients une prestation
                   intellectuelle, globale, efficace à haute valeur ajoutée
                 </p>
               </div>
@@ -415,11 +415,11 @@
             <div class="text text-light mt-5">
               <p>
                 A l’écoute de leurs problématiques et avec une connaissance
-                approfondie des métiers de ses clients, FIREC & ASSOCIES se
+                approfondie des métiers de ses clients, Proband Consulting se
                 positionne en réel partenaire du chef d’entreprise et des
                 différentes directions pour les accompagner dans toutes les
                 phases de leur développement, tant au Maroc qu’à l’étranger.
-                FIREC & ASSOCIES s’est donné pour mission de rendre des services
+                Proband Consulting s’est donné pour mission de rendre des services
                 à forte valeur ajoutée, dans le cadre de relations de confiance
                 réciproque et ce, grâce à son équipe polyvalente constituée de
                 plusieurs experts-comptables, de juristes et de fiscalistes.
